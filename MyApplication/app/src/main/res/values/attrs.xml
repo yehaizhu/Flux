@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="TImageView">
+        <!-- 边框宽度 -->
+        <attr name="border_width" format="dimension" />
+        <!-- 边框颜色 -->
+        <attr name="border_color" format="color" />
+        <!-- 是否是圆形 -->
+        <attr name="round" format="boolean" />
+        <!-- 是否是圆角矩形 -->
+        <attr name="round_rect" format="boolean" />
+        <!-- 是否是矩形 -->
+        <attr name="rect" format="boolean" />
+        <!-- 圆角半径 -->
+        <attr name="radii" format="dimension" />
+    </declare-styleable>
+    
+    <declare-styleable name="ClipView">
+        <!-- 边框宽度  比例-->
+        <attr name="clip_view_width" format="integer" />
+        <!-- 边框高度  比例-->
+        <attr name="clip_view_height" format="integer" />
+        <!-- 边框颜色 -->
+        <attr name="clip_view_color" format="color" />
+        <!-- 是否是圆形 -->
+        <attr name="clip_view_round" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="TProgressView">
+        <!-- 底层边框颜色-->
+        <attr name="bottom_color" format="color" />
+        <!-- 顶层线颜色 -->
+        <attr name="top_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="MultiStateView">
+        <attr name="msv_loadingView" format="reference" />
+        <attr name="msv_emptyView" format="reference" />
+        <attr name="msv_errorView" format="reference" />
+        <attr name="msv_viewState" format="enum">
+            <enum name="content" value="0" />
+            <enum name="error" value="1" />
+            <enum name="empty" value="2" />
+            <enum name="loading" value="3" />
+        </attr>
+    </declare-styleable>
+    
+    <declare-styleable name="DottedProgressBar">
+  <attr name="emptyDotsColor" format="color" /> 
+  <attr name="activeDotColor" format="color" /> 
+  <attr name="inactiveDot" format="reference|color" /> 
+  <attr name="activeDot" format="reference|color" /> 
+  <attr name="dotSize" format="dimension" /> 
+  <attr name="spacing" format="dimension" /> 
+  <attr name="jumpingSpeed" format="integer" /> 
+  <attr name="activeDotIndex" format="integer" /> 
+  </declare-styleable>
+  
+      <declare-styleable name="J2WRefreshStyle">
+        <attr name="loading_color1" format="integer" />
+        <attr name="loading_color2" format="integer" />
+        <attr name="loading_color3" format="integer" />
+        <attr name="loading_color4" format="integer" />
+    </declare-styleable>
+
+    <!-- 控件点击波纹效果 -->
+    <declare-styleable name="LButtonStyle">
+        <attr name="widget_animColor" format="reference|color" />
+        <attr name="widget_background" format="reference|color" />
+        <attr name="widget_delayclick" format="boolean" />
+        <attr name="widget_type">
+            <enum name="normal" value="0" />
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+            <enum name="center" value="3" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="PreferenceStyle">
+        <attr name="preference_title" format="string" />
+        <attr name="preference_summary" format="string" />
+        <attr name="preference_checked" format="boolean" />
+        <attr name="preference_show_divider" format="boolean" />
+    </declare-styleable>
+    <!-- 控件点击波纹效果 -->
+    <!-- 动态改变大小textview-->
+    <attr name="autoScaleTextViewStyle" format="reference" />
+    <declare-styleable name="AutoScaleTextView">
+        <attr name="minTextSize" format="dimension" />
+    </declare-styleable>
+
+    <!-- 可拉伸 -->
+    <declare-styleable name="J2WDragTopLayout">
+        <attr name="dtlCollapseOffset" format="dimension" />
+
+        <attr name="dtlOverDrag" format="boolean" />
+
+        <attr name="dtlOpen" format="boolean" />
+
+        <attr name="dtlTopView" format="reference" />
+
+        <attr name="dtlDragContentView" format="reference" />
+
+        <attr name="dtlCaptureTop" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="PercentLayout_Layout">
+        <attr name="layout_widthPercent" format="string"/>
+        <attr name="layout_heightPercent" format="string"/>
+
+        <attr name="layout_marginPercent" format="string"/>
+        <attr name="layout_marginLeftPercent" format="string"/>
+        <attr name="layout_marginTopPercent" format="string"/>
+        <attr name="layout_marginRightPercent" format="string"/>
+        <attr name="layout_marginBottomPercent" format="string"/>
+        <attr name="layout_marginStartPercent" format="string"/>
+        <attr name="layout_marginEndPercent" format="string"/>
+
+        <attr name="layout_textSizePercent" format="string"/>
+
+        <attr name="layout_maxWidthPercent" format="string"/>
+        <attr name="layout_maxHeightPercent" format="string"/>
+        <attr name="layout_minWidthPercent" format="string"/>
+        <attr name="layout_minHeightPercent" format="string"/>
+
+        <attr name="layout_paddingPercent" format="string"/>
+        <attr name="layout_paddingTopPercent" format="string"/>
+        <attr name="layout_paddingBottomPercent" format="string"/>
+        <attr name="layout_paddingLeftPercent" format="string"/>
+        <attr name="layout_paddingRightPercent" format="string"/>
+    </declare-styleable>
+    
+</resources>

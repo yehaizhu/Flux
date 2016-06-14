@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sousou.zyh.com.view.PercentRelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textSize="@dimen/text_size"
+        android:text="@string/app_username"
+        app:layout_widthPercent = "30%w"
+        app:layout_heightPercent = "10%w"
+        app:layout_marginLeftPercent = "3%w"
+        app:layout_marginTopPercent = "30%w"
+        android:id="@+id/tv_username" />
+
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:inputType="phone"
+        app:layout_widthPercent = "60%w"
+        app:layout_heightPercent = "10%w"
+        app:layout_marginLeftPercent = "30%w"
+        app:layout_marginTopPercent = "30%w"
+        android:id="@+id/et_username"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_password"
+        app:layout_widthPercent = "30%w"
+        app:layout_heightPercent = "10%w"
+        app:layout_marginLeftPercent = "3%w"
+        app:layout_marginTopPercent = "40%w"
+        android:textSize="@dimen/text_size"
+        android:id="@+id/tv_password" />
+
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/et_password"
+        app:layout_widthPercent = "60%w"
+        app:layout_heightPercent = "10%w"
+        app:layout_marginLeftPercent = "30%w"
+        app:layout_marginTopPercent = "40%w"
+        android:layout_gravity="center_horizontal" />
+
+
+
+    <Button
+        android:id="@+id/bt_register"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="13%w"
+        app:layout_marginLeftPercent="7%w"
+        app:layout_widthPercent="30%w"
+        app:layout_marginTopPercent="60%w"
+        android:text="@string/app_register"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size" />
+
+
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="13%w"
+        app:layout_marginLeftPercent="50%w"
+        app:layout_widthPercent="30%w"
+        app:layout_marginTopPercent="60%w"
+        android:text="@string/app_login"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size"/>
+
+
+
+</sousou.zyh.com.view.PercentRelativeLayout>
